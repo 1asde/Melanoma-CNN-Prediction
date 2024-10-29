@@ -1,52 +1,46 @@
 # Project Name
-> bbb
+> Melanoma-CNN-Prediction
 
-
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- In this assignment, you will create a multiclass classification model by building a custom convolutional neural network using TensorFlow.
+- In this project, we aim to solve the problem of accurately classifying skin lesions as malignant (melanoma) or benign using a Convolutional Neural Network (CNN). By training the CNN on a labeled dataset of skin images, the model will learn to detect patterns that differentiate melanoma from benign conditions, assisting in early and reliable skin cancer diagnosis. This approach can support dermatologists in identifying melanoma cases more efficiently and potentially improving patient outcomes
+- The dataset consists of 2,357 images of malignant and benign oncological conditions, obtained from the International Skin Imaging Collaboration (ISIC). Each category was organized according to ISIC’s classification, with an equal number of images in each subset.
+- The data set contains the following diseases:
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+Actinic keratosis
+Basal cell carcinoma
+Dermatofibroma
+Melanoma
+Nevus
+Pigmented benign keratosis
+Seborrheic keratosis
+Squamous cell carcinoma
+Vascular lesion
+- 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The model without Batch Normalization showcases high accuracies in terms of both training(80%) and validation(81%).
 
+The rebalancing has reduced the effects of overfitting. It has also slightly increased the accuracy.
+
+While the model with Batch normalization reduced the effects of overfitting, its accuracies were low (around 60-64%) for both training and validation.
+
+The inclusion of batch normalization is considered to be not effective in increasing the efficiency.
+
+The final model without batch normalization is effective in learning the general behavior and underlying information of the dataset
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+Python - version 3.10.12
+Matplotlib - version 3.7.1
+Numpy - version 1.26.4
+Pandas - version 2.2.2
+Seaborn - version 0.13.2
+Tensorflow - version 2.17.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- Upgrad Tutorials on the topic - CNN
+- [Augmentor]https://augmentor.readthedocs.io/en/master/userguide/examples.html
 
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
