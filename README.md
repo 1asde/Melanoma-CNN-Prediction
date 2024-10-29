@@ -1,5 +1,4 @@
-# Project Name
-> Melanoma-CNN-Prediction
+# Melanoma-CNN-Prediction
 
 
 ## General Information
@@ -7,7 +6,6 @@
 - In this project, we aim to solve the problem of accurately classifying skin lesions as malignant (melanoma) or benign using a Convolutional Neural Network (CNN). By training the CNN on a labeled dataset of skin images, the model will learn to detect patterns that differentiate melanoma from benign conditions, assisting in early and reliable skin cancer diagnosis. This approach can support dermatologists in identifying melanoma cases more efficiently and potentially improving patient outcomes
 - The dataset consists of 2,357 images of malignant and benign oncological conditions, obtained from the International Skin Imaging Collaboration (ISIC). Each category was organized according to ISIC’s classification, with an equal number of images in each subset.
 - The data set contains the following diseases:
-
 Actinic keratosis
 Basal cell carcinoma
 Dermatofibroma
@@ -18,7 +16,6 @@ Seborrheic keratosis
 Squamous cell carcinoma
 Vascular lesion
 - 
-
 ## Conclusions
 
 The model without Batch Normalization showcases high accuracies in terms of both training(80%) and validation(81%).
