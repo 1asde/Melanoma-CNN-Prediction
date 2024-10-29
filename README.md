@@ -18,23 +18,23 @@
  
 ## Conclusions
 
-The model without Batch Normalization showcases high accuracies in terms of both training(80%) and validation(81%).
+- The model without Batch Normalization showcases high accuracies in terms of both training(80%) and validation(81%).
 
-The rebalancing has reduced the effects of overfitting. It has also slightly increased the accuracy.
+- The rebalancing has reduced the effects of overfitting. It has also slightly increased the accuracy.
 
-While the model with Batch normalization reduced the effects of overfitting, its accuracies were low (around 60-64%) for both training and validation.
+- While the model with Batch normalization reduced the effects of overfitting, its accuracies were low (around 60-64%) for both training and validation.
 
-The inclusion of batch normalization is considered to be not effective in increasing the efficiency.
+- The inclusion of batch normalization is considered to be not effective in increasing the efficiency.
 
-The final model without batch normalization is effective in learning the general behavior and underlying information of the dataset
+- The final model without batch normalization is effective in learning the general behavior and underlying information of the dataset
 
 ## Technologies Used
-Python - version 3.10.12
-Matplotlib - version 3.7.1
-Numpy - version 1.26.4
-Pandas - version 2.2.2
-Seaborn - version 0.13.2
-Tensorflow - version 2.17.0
+- Python - version 3.10.12
+- Matplotlib - version 3.7.1
+- Numpy - version 1.26.4
+- Pandas - version 2.2.2
+- Seaborn - version 0.13.2
+- Tensorflow - version 2.17.0
 
 
 ## Acknowledgements
